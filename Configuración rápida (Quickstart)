@@ -1,0 +1,12 @@
+# 1) Instalar dependencias
+npm install
+
+# 2) Copiar variables de entorno
+cp .env.example .env
+# Abre .env y rellena valores (host, usuario, contraseña, bd)
+
+# 3) Crear BD/tablas (ver SQL más abajo)
+# Ejecuta el script en MySQL Workbench
+
+# 4) Ejecutar
+npm run dev    # o: npx nodemon --legacy-watch src/server.js
