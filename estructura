@@ -1,0 +1,14 @@
+tarea-api-estudiantes/
+├─ src/
+│  ├─ app.js
+│  ├─ server.js
+│  ├─ db.js
+│  ├─ routes/
+│  │   └─ estudiantes.routes.js
+│  └─ controllers/
+│      └─ estudiantes.controller.js
+├─ .env                 # NO subir al repo
+├─ .env.example
+├─ postman_collection.json
+├─ README.md
+└─ package.json
